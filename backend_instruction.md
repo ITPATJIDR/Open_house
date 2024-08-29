@@ -12,6 +12,14 @@ pip install werkzeug
 git clone https://github.com/ITPATJIDR/Bu_openhouse.git
 ```
 
+รายละเอียดโค้ด ในการ import
+
+```python
+from flask import Flask, render_template, request, redirect, url_for, session, jsonify
+from flask_sqlalchemy import SQLAlchemy
+from werkzeug.security import generate_password_hash, check_password_hash
+```
+
 รายละเอียดของโค้ด:
 
 การตั้งค่า Flask และฐานข้อมูล:
